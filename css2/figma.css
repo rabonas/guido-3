@@ -1,0 +1,838 @@
+@import url('./style.css');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 90px; /* barcha h2 larga margin top berilgan -2 */
+    margin-bottom: 0;
+    text-align: center;
+    color: #222222;
+} /* stillarni element o'rniga class ga bergan to'g'riroq -1 */
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    margin: 0 -15px;
+}
+
+.p {
+    text-align: center;
+    margin-bottom: 43px;
+    color: #717171;
+    margin-top: 0;
+}
+
+/* --------------------------------
+             HEADER
+-------------------------------- */
+
+.header{
+    background: url('../img/circle.png');
+    /* background-image bergan yaxshiroq chunki hammasini alohida yozibsiz -1 */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.select{
+    margin-top: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 30px; /* barcha a teglariga margin-right berilgan -2 */
+}
+
+.explore{
+    background-color: inherit;
+    color: white;
+    border: none;  /* bir xil stillar qayta berilgan -2 */
+}
+
+.listings{
+    background-color: inherit;
+    color: white;
+    border: none;
+}
+
+.pages{
+    background-color: inherit;
+    color: white;
+    border: none;
+}
+
+.blog{
+    background-color: inherit;
+    color: white;
+    border: none;
+}
+
+.fa-user{
+    color: white;
+}
+
+.add-listing{
+    padding: 13px 35px 10px 35px;
+    border-radius: 8px;
+    border: 1px solid white;
+    background-color: #fff;
+    color: #222;
+}
+
+.add-listing i{
+    margin-right: 10px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 220px; /* o'sha xatolik -2 */
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.inputs input{
+    outline: none;
+    border: none;
+    margin-right: 10px;
+}
+
+.what{
+    background-color: #fff;
+    padding: 21px 202px 16px 20px; /* padding-right katta bermasdan width berish kerak -2 */
+    border-radius: 8px;
+}
+
+.where{
+    background-color: #fff;
+    margin-left: 10px;
+    padding: 21px 0px 16px 20px;
+    border-radius: 8px;
+}
+
+.wrapper a{
+    background-color:#E44548;
+    padding: 20px 20px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+.foot-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 193px;
+    padding-bottom: 80px;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.foot-container span{
+    display: block;
+    color: #fff;
+    font-size: 30px ;
+    text-align: center;
+    font-weight: 500;
+}
+
+.foot-container p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* ----------------------------------
+             SECTION-2
+---------------------------------- */
+
+
+.works {
+    width: 100%;
+}
+
+.headertext {
+    text-align: center;
+    padding: 20px; 
+}
+
+.find {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.headertext p {
+    font-size: 18px;
+}
+
+.icons {
+    width: 100%; 
+    height: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    
+} 
+
+.icons .icom {
+    width: 30%;   
+    height: 400px;
+    margin-bottom: 20px;
+} 
+
+.disc {
+    text-align: center;
+} 
+
+.icom .lupa {
+    width: 200px;
+    height: 200px;
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 1s ease-in-out;
+    background-attachment: fixed;
+    background: #FEF6F6;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.icom .lupa:hover {
+    background-color: #E44548;
+}
+
+.lupa span {
+    color:  #E44548;
+    font-size: 70px;
+}
+
+.lupa:hover span {
+    color: #FEF6F6;
+}
+
+/*--------------------------------
+          SECTION-3
+------------------------------- */
+
+
+.all {
+    position: relative;
+    width: 100%;
+}
+
+.icon-left, .icon-right {
+    position: absolute;
+    top: 200px;
+    padding: 17px 16px;
+    box-shadow: 0px 8px 30px rgba(34, 34, 34, 0.07);
+    border-radius: 50%;
+}
+
+.icon-left {
+    left: 100px;
+}
+
+.icon-right {
+    right: 100px;
+}
+
+.column3 {
+    width: 33.3%;
+    padding: 0 15px;
+}
+
+.article {
+    border: 1px solid #EAEAEA;
+    border-radius: 8px;
+}
+
+.article2 {
+    border: 1px solid #EAEAEA;
+    border-radius: 8px;
+    box-shadow: 0px 8px 30px rgba(34, 34, 34, 0.07);
+    /* box-shadow alohida classda emas hover da bo'lishi kerak edi -2 */
+}
+
+.top {
+    position: relative;
+    padding: 10px;
+}
+
+.top .o {
+    width: 100%;
+}
+
+.one {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    padding: 5px 13px;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+}
+
+.two {
+    position: absolute;
+    top: 30px;
+    left: 95px;
+    padding: 5px 13px;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+}
+
+.red {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ED4949;
+    color: white;
+}
+
+.first {
+    position: relative;
+    bottom: 40px;
+    left: 20px;
+}
+
+.second {
+    position: absolute;
+    bottom: 15px;
+    right: 30px;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(140, 152, 164, 0.6);
+}
+
+.center h3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #222222;
+    margin: 0px 20px 6px 20px;
+}
+
+.center p {
+    font-weight: normal;
+    font-size: 15px;
+    margin: 0px 0px 14px 20px;
+    color: #717171;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #EAEAEA;
+}
+
+.right {
+    margin-top: 19px;
+    margin-right: 20px;
+}
+
+.icon-phone, .icon-pin {
+    margin-left: 20px ;
+    color: rgba(113, 113, 113, 1);
+}
+
+.icon-phone~a {
+    margin-left: 7px;
+}
+
+.icon-pin~a {
+    margin-left: 2px;
+}
+
+.link {
+    height: 38px;
+}
+
+.link a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #222222;
+}
+
+.icon-outdoor, .icon-love, .icon-food, .icon-bell {
+    padding: 11px;
+    border-radius: 50%;
+}
+
+span~p {
+    display: inline-block;
+    color: #222222;
+    font-size: 15px;
+}
+
+.icon-outdoor {
+    margin-left: 20px;
+    margin-right: 6px;
+    background-color: #DD9933;
+    color: white;
+}
+
+.icon-food {
+    margin-left: 20px;
+    margin-right: 6px;
+    background-color: #DD3333;
+    color: white;
+}
+
+.icon-bell {
+    margin-left: 20px;
+    margin-right: 6px;
+    background-color: #33A0DD;
+    color: white;
+}
+
+.left {
+    margin-top: 5px;
+}
+
+.icon-love {
+    margin-left: 20px;
+    margin-right: 6px;
+    background-color: #F4F4F4;
+    color: #717171;
+}
+
+.icon-zoom {
+    color: #717171;
+}
+
+/* --------------------------
+         SECTION-4
+-------------------------- */
+
+.locations {
+    padding: 60px 0;
+}
+
+.containers{
+    max-width: 1125px;
+    margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1125px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 25%;
+    margin-bottom: 20px;
+}  
+
+.texts {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+.texts .text1 {
+    margin: 0 0 10px;
+}
+
+.texts .text2 {
+    margin: 0;
+}
+
+/* ----------------------------------
+             SECTION-5
+---------------------------------- */
+
+.menu{
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FAFAFA;
+}  
+
+.rasmcha-card{
+    display: inline-block;
+    padding: 8px 9px;
+    
+}
+
+.rasmcha-card-inner {
+    position: relative;
+}
+
+.card img {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 8px;
+ }
+
+ .circles{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    padding-top: 42px;
+}
+
+.circle{
+    background-color: #dedede;
+    border-radius: 50%;
+    margin-left: 10px;
+    width: 10px;
+    height: 10px;
+    color: #dedede;
+    font-size: 50px;
+    cursor: pointer;  
+  
+}
+
+.circle.long {
+    background-color: #222;
+    border-radius: 20px;
+    width: 20px;
+    height: 8px;  
+    margin-left: 10px;
+}
+
+button{
+     left: 45%;
+    top: 45%;
+    border: 0;    
+} 
+
+.fa-play-circle{
+    font-size: 80px;
+}
+
+ .post{
+    position: absolute;
+    left: 90px;
+    height: 26px;
+    bottom: 30px; 
+    font-size: 18px; 
+    color: #fff;
+    text-align: center;
+    font-weight: 700px;  
+}
+
+.fa-play-circle{
+    font-size: 80px;
+}
+
+ .post{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 30px; 
+    font-size: 18px; 
+    color: #fff;
+    text-align: center;
+    font-weight: 700px;  
+} 
+
+/* ------------------------------
+            SECTION-6
+------------------------------ */
+
+.column6{
+    width: 50%;
+    padding: 0 17px;
+}
+
+.column-header{
+    background-color: #FAFAFA;
+    padding: 31px 93px 35px 66px;
+    color: #717171;
+    border-radius: 8px;
+}
+
+.column-footer{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.column-footer .text{
+    display: inline-block;
+    padding-left: 13px;
+} 
+
+.text p{
+    margin: 0;
+    line-height: 26px;
+}
+
+.column-footer img{
+    border-radius: 50%;
+}
+    
+.circle{
+    color: #dedede;
+    font-size: 50px;
+    cursor: pointer;  
+}
+
+.post3{ /* klass nomi nega unaqa -1 */
+    color: #222;
+    border-radius: 20%;
+    font-size: 70px;
+}
+
+/* -------------------------------
+            SECTION-7
+------------------------------- */
+
+.head {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.head p {
+    color: #717171;
+}
+
+.column7 {
+    width: 33.3%;
+    padding: 0 15px;
+}
+
+.article7 { /* klass nomi nega son bilan -1 */
+    position: relative;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.tops {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    padding: 5px 21px;
+    background: #6CBF78;
+    color: white;
+    border-radius: 600px;
+}
+
+.icon-anyone {
+    margin-left: 10px;
+    color: #717171;
+}
+
+.icon-calendar {
+    margin-left: 20px;
+    color: #717171;
+}
+
+.text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #222222;
+    margin-top: 0px;
+    margin-left: 9px;
+}
+
+/* -----------------------------
+            FOOTER
+----------------------------- */
+
+footer{
+    background-image: url(../img/black.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+footer h4{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+footer p{
+    font-weight: 400;
+    font-size: 15px;
+}
+
+address{
+    font-style: normal;  
+    color: white;
+}
+
+address p{
+    line-height: 24px;
+}
+
+address i{
+    width: 18px;
+    height: 18px;
+    margin-right: 21px;
+}
+
+.adress{
+    display: flex;
+    align-items: baseline; /* o'xshash stillar qayta takrorlangan -2 */
+}
+
+.tel{
+    display: flex;
+    align-items: baseline;
+}
+
+.email{
+    display: flex;
+    align-items: baseline;
+}
+
+.column {
+    width: 33.3%;
+    padding: 0 15px;
+}
+
+.footer-links{
+    display: flex;
+}
+
+.footer-links h4{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+ul{ /* barcha ul larga stil berilgan -2 */
+    list-style: none;
+    padding: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.column input{
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+.ordered-list{
+    width: 50%;
+}
+
+.column h4{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.column p{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.column button{
+    padding: 14px 26px;
+    background-color: #E44548;
+    border-radius: 8px;
+    color: white;
+    border: none;
+}
+
+.column form{
+    background-color: #fff;
+    border-radius: 8px;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.links{
+    padding-top: 64px;
+    padding-bottom: 52px;
+}
+
+.column-6{
+    width: 16.6%;
+    padding: 0 15px;
+}
+
+.footer-bottom{
+    border-top: 1px solid #434452;
+    padding-top: 33px;
+    padding-bottom: 32px;
+}
+
+.footer-top{
+    padding-top: 100px;
+    padding-bottom: 95px;
+}
+
+.footer-bottom .row{
+    align-items: center;
+}
+
+.footer-bottom .column:nth-child(2) {
+    text-align: center;
+}
+
+.footer-bottom .column:nth-child(3) {
+    text-align: right;
+}
+
+.to-top{
+    background-color: grey;
+    border-radius: 50%;
+    color: white;
+    position: fixed;
+    right: 15px;
+    bottom: 30px;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.to-top span{
+    display: inline-block;
+    font-size: 6px;
+} 

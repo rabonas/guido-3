@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?kl5oz7');
+  src:  url('../fonts/icomoon.eot?kl5oz7#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?kl5oz7') format('truetype'),
+    url('../fonts/icomoon.woff?kl5oz7') format('woff'),
+    url('../fonts/icomoon.svg?kl5oz7#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bacimg:before {
+  content: "\e900";
+}
+.icon-2:before {
+  content: "\e901";
+}
+.icon-3:before {
+  content: "\e902";
+}
+.icon-facebook:before {
+  content: "\e903";
+}
+.icon-in:before {
+  content: "\e904";
+}
+.icon-ins:before {
+  content: "\e905";
+}
+.icon-qush:before {
+  content: "\e906";
+}
+.icon-sms:before {
+  content: "\e907";
+}
+.icon-telefon:before {
+  content: "\e908";
+}
+.icon-Vector-4:before {
+  content: "\e909";
+}
+.icon-facebook1:before {
+  content: "\e90a";
+}
+.icon-finder:before {
+  content: "\e90b";
+}
+.icon-sumkakitob:before {
+  content: "\e90c";
+}
+.icon-1:before {
+  content: "\e90d";
+}
+.icon-21:before {
+  content: "\e90e";
+}
+.icon-31:before {
+  content: "\e90f";
+}
+.icon-bell:before {
+  content: "\e910";
+}
+.icon-food:before {
+  content: "\e911";
+}
+.icon-left:before {
+  content: "\e912";
+}
+.icon-love:before {
+  content: "\e913";
+}
+.icon-outdoor:before {
+  content: "\e914";
+}
+.icon-phone:before {
+  content: "\e915";
+}
+.icon-pin:before {
+  content: "\e916";
+}
+.icon-right:before {
+  content: "\e917";
+}
+.icon-zoom:before {
+  content: "\e918";
+}
+.icon-calendar:before {
+  content: "\e919";
+}
+.icon-anyone:before {
+  content: "\e91a";
+}
+.icon-Vector:before {
+  content: "\e91b";
+}
